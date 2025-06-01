@@ -1,6 +1,6 @@
 -- Active: 1747821811215@@127.0.0.1@5432@conservation_db
 
-
+        -- initial data
 create table rangers(
     ranger_id  SERIAL PRIMARY KEY,
     name VARCHAR(50),
